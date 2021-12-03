@@ -1,0 +1,16 @@
+
+## 2021/12/03
+
+goos: darwin
+goarch: amd64
+pkg: github.com/stars-labs/go-pvss/pvss
+cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+BenchmarkDLEQ_ChallengeAndResponse-12        12132       99496 ns/op        2161 B/op       31 allocs/op
+BenchmarkDLEQVerify-12                        5664      212610 ns/op        9877 B/op      139 allocs/op
+BenchmarkDealer_DistributeSecret-12            262     4541254 ns/op       83339 B/op     1547 allocs/op
+BenchmarkVerifyDistributionShares-12            75    15481097 ns/op      983564 B/op    14352 allocs/op
+BenchmarkReconstructSecret-12                 1878      631949 ns/op       49894 B/op      826 allocs/op
+BenchmarkPolynomial_GetValue-12             155782        7720 ns/op        3065 B/op       39 allocs/op
+PASS
+ok   github.com/stars-labs/go-pvss/pvss 9.409s
+
